@@ -30,7 +30,23 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 
 - We have to edit the index 1 to inndex 2 to make the code correct. First press ```<k>``` *6, ```<l>``` *7, press ```<x>``` to delete 1 and press ```<i>``` to acces insert mode so that the user can change 1 to 2. After that, press ```<esc>``` button, and then type ```:wq``` to save and quit from the file.
 
-- After editing, test to if the coding is failed or succeed! The result seems like the testing is succeed!
+k: go up.
+
+l: go left.
+
+x: delete the character.
+
+i: go into the insert mode.
+
+esc: exit from the current mode.
+
+:w : save.
+
+:q : quit.
+
+:wq: save and quit.
+
+- After editing, test if the coding is failed or succeed! The result seems like the testing is succeed!
 To test, use 
 
 ```
