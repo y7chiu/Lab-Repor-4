@@ -2,11 +2,13 @@
 
 ## Timing Tasks
 
-- Type ssh cse15lsp23xx@ieng6.ucsd.edu to login into ```ieng6```.
+- Type ```<ssh cse15lsp23xx@ieng6.ucsd.edu>``` to login into ```ieng6```.
+
+We do not have to type the password after we ```<ssh>``` to enter the ```ieng6``` acount since the github had already have the memory of the key that in the last lab we authorized our terminal connect to the ```github``` account. Therefore, this is why we don not have to type the password when signing in to the ```ieng6``` acount.
 
 <img width="762" alt="截圖 2023-05-21 15 00 47" src="https://github.com/y7chiu/Lab-Repor-4/assets/130111605/249e3365-db2c-42cd-a8c2-99cd7d015163">
 
-- ls and cd into lab7, we will see ListExample.java
+- ```<ls>``` and ```<cd>``` into lab7, we will see ListExample.java
 
 <img width="540" alt="截圖 2023-05-21 15 05 16" src="https://github.com/y7chiu/Lab-Repor-4/assets/130111605/eae0a108-9c28-49f0-86fb-70080480a3bf">
 
