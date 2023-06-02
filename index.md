@@ -4,7 +4,7 @@
 
 - Type ```<ssh cse15lsp23xx@ieng6.ucsd.edu>``` to login into ```ieng6```.
 
-We do not have to type the password after we ```<ssh>``` to enter the ```ieng6``` acount since the github had already have the memory of the key that in the last lab we authorized our terminal connect to the ```github``` account. Therefore, this is why we don not have to type the password when signing in to the ```ieng6``` acount.
+We do not have to type the password after we ```<ssh>``` to sign into the ```ieng6``` acount since the github had already have the memory of the key that in the last lab we authorized our terminal connect to the ```github``` account. Therefore, this is why we do not have to type the password when signing in to the ```ieng6``` acount.
 
 <img width="762" alt="截圖 2023-05-21 15 00 47" src="https://github.com/y7chiu/Lab-Repor-4/assets/130111605/249e3365-db2c-42cd-a8c2-99cd7d015163">
 
@@ -19,6 +19,10 @@ To test, use
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
 ```
+
+Actually, we can use another quick way to testing.
+
+We can just use ```<bash>```script to run the test. Type ```<bash grade.sh>``` and the testing will run. Of course, we should first create the grade.sh code to include all the thing we want for testing.
 
 <img width="970" alt="截圖 2023-05-21 16 11 18" src="https://github.com/y7chiu/Lab-Repor-4/assets/130111605/18f761c7-362b-4c52-a62d-dd60244afb43">
 
@@ -59,15 +63,15 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 <img width="995" alt="截圖 2023-05-21 16 08 59" src="https://github.com/y7chiu/Lab-Repor-4/assets/130111605/dccc18ed-7934-433e-a785-437028e2cdeb">
 
 
-- After testing, we are going to commit the file. first type in git commit and we will see this.
+- After testing, we are going to commit the file. first type in ```<git commit>``` and we will see this.
 
 <img width="518" alt="截圖 2023-05-21 15 34 59" src="https://github.com/y7chiu/Lab-Repor-4/assets/130111605/9c4ffaf5-368d-43b6-a299-82ca906bf56d">
 
-- To access this, we can use git add <File> to success the commit.
+- To access this, we can use ```<git add <File>>``` to success the commit.
   
 <img width="441" alt="截圖 2023-05-21 15 37 13" src="https://github.com/y7chiu/Lab-Repor-4/assets/130111605/47191eb3-5456-409c-bfcf-63b849ab013d">
 
-- To check if the file is committed sucessfully, type git status to see the status
+- To check if the file is committed sucessfully, type ```<git status>``` to see the status
   
 <img width="528" alt="截圖 2023-05-21 15 38 08" src="https://github.com/y7chiu/Lab-Repor-4/assets/130111605/58917727-e19a-4ddb-aac6-12ba10b3a29d">
 
